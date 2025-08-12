@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:3000/api';
+const API_BASE = 'https://long-polling-chat-app-2tqg.onrender.com';
 const EXPIRY_DURATION = 60 * 60 * 1000; // 1 hour
 const HEARTBEAT_INTERVAL = 15000; // 15 seconds
 
