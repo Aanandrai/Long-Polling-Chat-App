@@ -149,6 +149,8 @@ backend/
 ```http
 GET  /api/messages/poll      # Initiate long polling (wait for new messages)
 POST /api/messages           # Send a message to all waiting clients
+POST   /api/users/heartbeat — Notify server user is online
+GET    /api/users/online — Get list of online users
 ```
 
 ---
