@@ -177,7 +177,3 @@ GET    /api/users/online — Get list of online users
 3. Use the API endpoints as described above.
 
 ---
-
-## 📚 References
-
--
