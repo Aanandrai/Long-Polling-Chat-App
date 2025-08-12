@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Real-Time Chat App - Long Polling</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <div>💬 <strong>Realtime Chat</strong></div>
+    <!-- Removed tagline from here -->
+    <div id="userInfo">
+      <img id="userAvatar" src="" alt="Your Avatar" />
+      <span>Your ID: <strong><span id="userId">Loading...</span></strong></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="messages" aria-label="Chat messages">
+      <!-- messages appended here -->
+    </section>
+
+    <aside aria-label="Online users">
+      <h2>Online Users</h2>
+      <ul id="usersList"></ul>
+    </aside>
+  </main>
+
+  <form id="chatForm" autocomplete="off" aria-label="Send message">
+    <input
+      id="messageInput"
+      type="text"
+      placeholder="Type a message..."
+      aria-required="true"
+      aria-describedby="userId"
+      maxlength="500"
+    />
+    <button id="sendBtn" type="submit" aria-label="Send message">Send</button>
+  </form>
+
+  <!-- Add vertical side logo at bottom left -->
+  <div id="sideLogo" aria-hidden="true">Long Polling Messaging App</div>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
