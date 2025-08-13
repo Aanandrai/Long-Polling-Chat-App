@@ -4,6 +4,10 @@ A simple real-time chat application using **Node.js**, **Express**, and **long p
 Includes a modern frontend and a backend API, all runnable locally.
 
 ---
+# Note :
+        Due to hosted on free server of render it can face some issue in waking up server 
+        You can check the health by BASE_URL/api/health
+        You can pull and run on local it will run fine
 
 ## 🗂 Project Structure
 
