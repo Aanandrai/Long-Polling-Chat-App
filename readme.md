@@ -5,7 +5,7 @@ Includes a modern frontend and a backend API, all runnable locally.
 
 ---
 ### Hosted on
-        **longpollingchat.netlify.app/**
+        longpollingchat.netlify.app/
 
 ---
 
