@@ -4,8 +4,8 @@ A simple real-time chat application using **Node.js**, **Express**, and **long p
 Includes a modern frontend and a backend API, all runnable locally.
 
 ---
-# Hosted on 
-**longpollingchat.netlify.app/**
+**Hosted on**
+        **longpollingchat.netlify.app/**
 
 ---
 
